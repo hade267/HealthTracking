@@ -106,3 +106,11 @@ Request [2025-05-15 10:47:15] - GET /api/devices from IP: 0:0:0:0:0:0:0:1 by Use
 Response [2025-05-15 10:47:15] - GET /api/devices -> Status: 500 for User: Token: 66dcadda-0400-4d9d-8777-38f7e68d45bb
 Request [2025-05-15 10:47:22] - POST /api/devices from IP: 0:0:0:0:0:0:0:1 by User: Token: 66dcadda-0400-4d9d-8777-38f7e68d45bb
 Response [2025-05-15 10:47:22] - POST /api/devices -> Status: 200 for User: Token: 66dcadda-0400-4d9d-8777-38f7e68d45bb
+Request [2025-05-15 12:04:30] - POST /api/auth/login from IP: 0:0:0:0:0:0:0:1 by User: Anonymous
+Response [2025-05-15 12:04:30] - POST /api/auth/login -> Status: 200 for User: Anonymous
+Request [2025-05-15 12:05:52] - POST /api/auth/login from IP: 0:0:0:0:0:0:0:1 by User: Anonymous
+Response [2025-05-15 12:05:52] - POST /api/auth/login -> Status: 200 for User: Anonymous
+Request [2025-05-15 12:06:10] - GET /api/users from IP: 0:0:0:0:0:0:0:1 by User: Token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJoYWRlMjY3IiwiaWF0IjoxNzQ3Mjg1NTUyLCJleHAiOjE3NDczNzE5NTJ9.YaiJbIZJGjeV5P2OLbQ-U4o42MW383IVf6k4bGoNOjgbTSYhIN_Kn4P2gNYcR6ttfT2xWWhhyh3LJG9Zpo9GrQ
+Response [2025-05-15 12:06:10] - GET /api/users -> Status: 200 for User: Token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJoYWRlMjY3IiwiaWF0IjoxNzQ3Mjg1NTUyLCJleHAiOjE3NDczNzE5NTJ9.YaiJbIZJGjeV5P2OLbQ-U4o42MW383IVf6k4bGoNOjgbTSYhIN_Kn4P2gNYcR6ttfT2xWWhhyh3LJG9Zpo9GrQ
+Request [2025-05-15 12:06:42] - GET /api/health/devices from IP: 0:0:0:0:0:0:0:1 by User: Token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJoYWRlMjY3IiwiaWF0IjoxNzQ3Mjg1NTUyLCJleHAiOjE3NDczNzE5NTJ9.YaiJbIZJGjeV5P2OLbQ-U4o42MW383IVf6k4bGoNOjgbTSYhIN_Kn4P2gNYcR6ttfT2xWWhhyh3LJG9Zpo9GrQ
+Response [2025-05-15 12:06:42] - GET /api/health/devices -> Status: 200 for User: Token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJoYWRlMjY3IiwiaWF0IjoxNzQ3Mjg1NTUyLCJleHAiOjE3NDczNzE5NTJ9.YaiJbIZJGjeV5P2OLbQ-U4o42MW383IVf6k4bGoNOjgbTSYhIN_Kn4P2gNYcR6ttfT2xWWhhyh3LJG9Zpo9GrQ

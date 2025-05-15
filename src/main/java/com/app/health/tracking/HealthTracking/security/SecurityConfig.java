@@ -41,7 +41,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .antMatchers("/swagger-ui.html", "/swagger-ui/**", "/v3/api-docs/**").permitAll()
                 .antMatchers("/api/health/devices").hasRole("ADMIN")
                 .antMatchers("/api/users/**").hasRole("ADMIN")
-                .antMatchers("/api/devices").hasAnyRole("USER", "ADMIN") // Allow USER and ADMIN to create devices
+                .antMatchers("/api/devices").hasAnyRole("USER", "ADMIN")
+                .antMatchers("/api/devices/user").hasAnyRole("USER", "ADMIN")
                 .antMatchers("/api/health/**").hasAnyRole("USER", "ADMIN")
                 .anyRequest().authenticated()
                 .and()

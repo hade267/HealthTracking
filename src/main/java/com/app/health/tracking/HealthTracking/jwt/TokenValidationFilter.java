@@ -24,6 +24,9 @@ public class TokenValidationFilter extends OncePerRequestFilter {
     private static final Logger logger = LoggerFactory.getLogger(TokenValidationFilter.class);
 
     @Autowired
+    private JwtUtil jwtUtil;
+
+    @Autowired
     private UsersRepository usersRepository;
 
     @Override
@@ -44,21 +47,26 @@ public class TokenValidationFilter extends OncePerRequestFilter {
         }
 
         String token = authHeader.substring(7);
-        Users user = usersRepository.findByRefreshToken(token);
-        if (user == null) {
-            logger.error("Invalid token provided for request to: {}", path);
-            response.sendError(HttpServletResponse.SC_UNAUTHORIZED, "Invalid token");
+        if (!jwtUtil.validateToken(token)) {
+            logger.error("Invalid or expired JWT token for request to: {}", path);
+            response.sendError(HttpServletResponse.SC_UNAUTHORIZED, "Invalid or expired token");
             return;
         }
 
-        // Set the authenticated user in the SecurityContext
+        String username = jwtUtil.getUsernameFromToken(token);
+        Users user = usersRepository.findByUsername(username);
+        if (user == null) {
+            logger.error("User not found for token in request to: {}", path);
+            response.sendError(HttpServletResponse.SC_UNAUTHORIZED, "User not found");
+            return;
+        }
+
         UserDetails userDetails = new User(user.getUsername(), user.getPassword(),
                 Collections.singletonList(() -> "ROLE_" + user.getRole().name()));
         SecurityContextHolder.getContext()
                 .setAuthentication(new org.springframework.security.authentication.UsernamePasswordAuthenticationToken(
                         userDetails, null, userDetails.getAuthorities()));
 
-        // Store userId, role, and username in request attributes for logging
         request.setAttribute("userId", user.getId());
         request.setAttribute("role", user.getRole().name());
         request.setAttribute("username", user.getUsername());

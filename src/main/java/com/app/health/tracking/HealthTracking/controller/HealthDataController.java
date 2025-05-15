@@ -97,7 +97,6 @@ public class HealthDataController {
         }
     }
 
-    // New Endpoint to Create a Device
     @PostMapping("/devices")
     public Devices createDevice(@RequestBody @Valid Devices device, HttpServletRequest request) {
         logger.debug("Creating device for userId: {}", device.getUserId());
@@ -105,19 +104,16 @@ public class HealthDataController {
             Long authenticatedUserId = (Long) request.getAttribute("userId");
             String role = (String) request.getAttribute("role");
 
-            // Ensure USER can only create devices for themselves, ADMIN can create for anyone
             if (!authenticatedUserId.equals(device.getUserId()) && !"ADMIN".equals(role)) {
                 logger.error("User {} with role {} attempted to create device for user {}. Access denied.", authenticatedUserId, role, device.getUserId());
                 throw new ResponseStatusException(HttpStatus.FORBIDDEN, "You can only create devices for yourself");
             }
 
-            // Verify the user exists
             if (!usersRepository.existsById(device.getUserId())) {
                 logger.warn("User with id: {} not found for device creation", device.getUserId());
                 throw new ResponseStatusException(HttpStatus.NOT_FOUND, "User not found");
             }
 
-            // Set the createdAt timestamp
             device.setCreatedAt(new Timestamp(System.currentTimeMillis()));
             Devices savedDevice = devicesRepository.save(device);
             logger.info("Successfully created device with id: {} for userId: {}", savedDevice.getId(), savedDevice.getUserId());
@@ -125,6 +121,25 @@ public class HealthDataController {
         } catch (Exception e) {
             logger.error("Failed to create device for userId: {}. Error: {}", device.getUserId(), e.getMessage(), e);
             throw new RuntimeException("Failed to create device: " + e.getMessage());
+        }
+    }
+
+    @GetMapping("/devices/user")
+    public List<Devices> getDevicesByUser(HttpServletRequest request) {
+        logger.debug("Fetching devices for logged-in user");
+        try {
+            Long authenticatedUserId = (Long) request.getAttribute("userId");
+            if (authenticatedUserId == null) {
+                logger.error("No authenticated user found");
+                throw new ResponseStatusException(HttpStatus.UNAUTHORIZED, "No authenticated user found");
+            }
+
+            List<Devices> devices = devicesRepository.findByUserId(authenticatedUserId);
+            logger.info("Successfully fetched {} devices for userId: {}", devices.size(), authenticatedUserId);
+            return devices;
+        } catch (Exception e) {
+            logger.error("Failed to fetch devices for user. Error: {}", e.getMessage(), e);
+            throw new RuntimeException("Failed to fetch devices: " + e.getMessage());
         }
     }
 
