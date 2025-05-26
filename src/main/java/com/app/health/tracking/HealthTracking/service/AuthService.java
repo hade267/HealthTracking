@@ -55,7 +55,7 @@ public class AuthService {
         }
 
         String token = jwtUtil.generateToken(user.getUsername());
-        logger.info("Successfully logged in user: {} with token", user.getUsername());
+        logger.info("Successfully logged in user: {} with token: {}", user.getUsername(),token);
         return new AuthResponse(user.getUsername(), token);
     }
 }
