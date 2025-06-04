@@ -2,16 +2,19 @@ package com.app.health.tracking.HealthTracking.model;
 
 import lombok.Data;
 import javax.persistence.*;
+import java.sql.Timestamp;
+import java.time.LocalDate;
 
 @Entity
 @Table(name = "health_data")
 @Data
 public class HealthData {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "user_id")
+    @Column(name = "user_id", nullable = false)
     private Long userId;
 
     @Column(name = "device_id")
@@ -21,7 +24,7 @@ public class HealthData {
     private Integer heartRate;
 
     @Column(name = "sleep_hours")
-    private Float sleepHours;
+    private Double sleepHours;
 
     @Column(name = "calories")
     private Integer calories;
@@ -36,20 +39,23 @@ public class HealthData {
     private Integer diastolic;
 
     @Column(name = "weight")
-    private Float weight;
+    private Double weight;
 
     @Column(name = "temperature")
-    private Float temperature;
+    private Double temperature;
 
-    @Column(name = "mood")
     @Enumerated(EnumType.STRING)
+    @Column(name = "mood")
     private Mood mood;
 
-    @Column(name = "data_date")
-    private java.sql.Date dataDate;
+    @Column(name = "data_date", nullable = false)
+    private LocalDate dataDate;
 
-    @Column(name = "created_at")
-    private java.sql.Timestamp createdAt;
+    @Column(name = "created_at", nullable = false)
+    private Timestamp createdAt;
+
+    @Column(name = "update_at")
+    private Timestamp updateAt;
 
     public enum Mood {
         GOOD, NORMAL, BAD

@@ -24,9 +24,6 @@ public class TokenValidationFilter extends OncePerRequestFilter {
     private static final Logger logger = LoggerFactory.getLogger(TokenValidationFilter.class);
 
     @Autowired
-    private JwtUtil jwtUtil;
-
-    @Autowired
     private UsersRepository usersRepository;
 
     @Override
@@ -47,17 +44,10 @@ public class TokenValidationFilter extends OncePerRequestFilter {
         }
 
         String token = authHeader.substring(7);
-        if (!jwtUtil.validateToken(token)) {
-            logger.error("Invalid or expired JWT token for request to: {}", path);
-            response.sendError(HttpServletResponse.SC_UNAUTHORIZED, "Invalid or expired token");
-            return;
-        }
-
-        String username = jwtUtil.getUsernameFromToken(token);
-        Users user = usersRepository.findByUsername(username);
+        Users user = usersRepository.findByRefreshToken(token);
         if (user == null) {
-            logger.error("User not found for token in request to: {}", path);
-            response.sendError(HttpServletResponse.SC_UNAUTHORIZED, "User not found");
+            logger.error("Invalid token provided for request to: {}", path);
+            response.sendError(HttpServletResponse.SC_UNAUTHORIZED, "Invalid token");
             return;
         }
 

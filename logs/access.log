@@ -1,116 +1,132 @@
-Request [2025-05-15 00:48:13] - POST /api/auth/login from IP: 0:0:0:0:0:0:0:1 by User: Anonymous
-Response [2025-05-15 00:48:13] - POST /api/auth/login -> Status: 200 for User: Anonymous
-Request [2025-05-15 00:51:28] - POST /api/auth/login from IP: 0:0:0:0:0:0:0:1 by User: Anonymous
-Response [2025-05-15 00:51:28] - POST /api/auth/login -> Status: 200 for User: Anonymous
-Request [2025-05-15 00:51:35] - GET /api/health/devices from IP: 0:0:0:0:0:0:0:1 by User: Token: 9d00d545-c3a2-4869-bc5b-9b08ccea3fdd
-Response [2025-05-15 00:51:35] - GET /api/health/devices -> Status: 200 for User: Token: 9d00d545-c3a2-4869-bc5b-9b08ccea3fdd
-Request [2025-05-15 00:52:12] - GET /swagger-ui/index.html from IP: 0:0:0:0:0:0:0:1 by User: Anonymous
-Response [2025-05-15 00:52:12] - GET /swagger-ui/index.html -> Status: 200 for User: Anonymous
-Request [2025-05-15 00:52:12] - GET /swagger-ui/swagger-ui.css from IP: 0:0:0:0:0:0:0:1 by User: Anonymous
-Request [2025-05-15 00:52:12] - GET /swagger-ui/index.css from IP: 0:0:0:0:0:0:0:1 by User: Anonymous
-Request [2025-05-15 00:52:12] - GET /swagger-ui/swagger-ui-bundle.js from IP: 0:0:0:0:0:0:0:1 by User: Anonymous
-Request [2025-05-15 00:52:12] - GET /swagger-ui/swagger-ui-standalone-preset.js from IP: 0:0:0:0:0:0:0:1 by User: Anonymous
-Request [2025-05-15 00:52:12] - GET /swagger-ui/swagger-initializer.js from IP: 0:0:0:0:0:0:0:1 by User: Anonymous
-Response [2025-05-15 00:52:12] - GET /swagger-ui/index.css -> Status: 200 for User: Anonymous
-Response [2025-05-15 00:52:12] - GET /swagger-ui/swagger-ui.css -> Status: 200 for User: Anonymous
-Response [2025-05-15 00:52:12] - GET /swagger-ui/swagger-ui-standalone-preset.js -> Status: 200 for User: Anonymous
-Response [2025-05-15 00:52:12] - GET /swagger-ui/swagger-ui-bundle.js -> Status: 200 for User: Anonymous
-Response [2025-05-15 00:52:12] - GET /swagger-ui/swagger-initializer.js -> Status: 200 for User: Anonymous
-Request [2025-05-15 00:52:12] - GET /v3/api-docs/swagger-config from IP: 0:0:0:0:0:0:0:1 by User: Anonymous
-Request [2025-05-15 00:52:12] - GET /swagger-ui/favicon-32x32.png from IP: 0:0:0:0:0:0:0:1 by User: Anonymous
-Response [2025-05-15 00:52:12] - GET /v3/api-docs/swagger-config -> Status: 200 for User: Anonymous
-Response [2025-05-15 00:52:12] - GET /swagger-ui/favicon-32x32.png -> Status: 200 for User: Anonymous
-Request [2025-05-15 00:52:12] - GET /v3/api-docs from IP: 0:0:0:0:0:0:0:1 by User: Anonymous
-Response [2025-05-15 00:52:12] - GET /v3/api-docs -> Status: 200 for User: Anonymous
-Request [2025-05-15 00:52:27] - GET /api/users from IP: 0:0:0:0:0:0:0:1 by User: Token: 9d00d545-c3a2-4869-bc5b-9b08ccea3fdd
-Response [2025-05-15 00:52:27] - GET /api/users -> Status: 200 for User: Token: 9d00d545-c3a2-4869-bc5b-9b08ccea3fdd
-Request [2025-05-15 00:53:56] - GET /api/users from IP: 0:0:0:0:0:0:0:1 by User: Token: 9d00d545-c3a2-4869-bc5b-9b08ccea3fdd
-Response [2025-05-15 00:53:56] - GET /api/users -> Status: 200 for User: Token: 9d00d545-c3a2-4869-bc5b-9b08ccea3fdd
-Request [2025-05-15 00:54:47] - PUT /api/users/ from IP: 0:0:0:0:0:0:0:1 by User: Token: 9d00d545-c3a2-4869-bc5b-9b08ccea3fdd
-Response [2025-05-15 00:54:47] - PUT /api/users/ -> Status: 500 for User: Token: 9d00d545-c3a2-4869-bc5b-9b08ccea3fdd
-Request [2025-05-15 00:55:01] - PUT /api/users from IP: 0:0:0:0:0:0:0:1 by User: Token: 9d00d545-c3a2-4869-bc5b-9b08ccea3fdd
-Response [2025-05-15 00:55:01] - PUT /api/users -> Status: 500 for User: Token: 9d00d545-c3a2-4869-bc5b-9b08ccea3fdd
-Request [2025-05-15 00:55:07] - PUT /api/users from IP: 0:0:0:0:0:0:0:1 by User: Token: 9d00d545-c3a2-4869-bc5b-9b08ccea3fdd
-Response [2025-05-15 00:55:07] - PUT /api/users -> Status: 500 for User: Token: 9d00d545-c3a2-4869-bc5b-9b08ccea3fdd
-Request [2025-05-15 00:55:16] - PUT /api/users/ from IP: 0:0:0:0:0:0:0:1 by User: Token: 9d00d545-c3a2-4869-bc5b-9b08ccea3fdd
-Response [2025-05-15 00:55:16] - PUT /api/users/ -> Status: 500 for User: Token: 9d00d545-c3a2-4869-bc5b-9b08ccea3fdd
-Request [2025-05-15 00:55:22] - PUT /api/users/ from IP: 0:0:0:0:0:0:0:1 by User: Token: 9d00d545-c3a2-4869-bc5b-9b08ccea3fdd
-Response [2025-05-15 00:55:22] - PUT /api/users/ -> Status: 500 for User: Token: 9d00d545-c3a2-4869-bc5b-9b08ccea3fdd
-Request [2025-05-15 00:55:55] - PUT /api/users/81585682-b069-4a8f-a0a4-b1a17f54f8bc from IP: 0:0:0:0:0:0:0:1 by User: Token: 9d00d545-c3a2-4869-bc5b-9b08ccea3fdd
-Response [2025-05-15 00:55:55] - PUT /api/users/81585682-b069-4a8f-a0a4-b1a17f54f8bc -> Status: 400 for User: Token: 9d00d545-c3a2-4869-bc5b-9b08ccea3fdd
-Request [2025-05-15 00:56:26] - PUT /api/users/8de36f1c-365a-47cd-b9b4-8ac71e0e8a92 from IP: 0:0:0:0:0:0:0:1 by User: Token: 9d00d545-c3a2-4869-bc5b-9b08ccea3fdd
-Response [2025-05-15 00:56:26] - PUT /api/users/8de36f1c-365a-47cd-b9b4-8ac71e0e8a92 -> Status: 400 for User: Token: 9d00d545-c3a2-4869-bc5b-9b08ccea3fdd
-Request [2025-05-15 00:56:30] - PUT /api/users/1 from IP: 0:0:0:0:0:0:0:1 by User: Token: 9d00d545-c3a2-4869-bc5b-9b08ccea3fdd
-Response [2025-05-15 00:56:30] - PUT /api/users/1 -> Status: 400 for User: Token: 9d00d545-c3a2-4869-bc5b-9b08ccea3fdd
-Request [2025-05-15 00:57:01] - PUT /api/users/1 from IP: 0:0:0:0:0:0:0:1 by User: Token: 9d00d545-c3a2-4869-bc5b-9b08ccea3fdd
-Response [2025-05-15 00:57:01] - PUT /api/users/1 -> Status: 400 for User: Token: 9d00d545-c3a2-4869-bc5b-9b08ccea3fdd
-Request [2025-05-15 00:57:30] - PUT /api/users/1 from IP: 0:0:0:0:0:0:0:1 by User: Token: 9d00d545-c3a2-4869-bc5b-9b08ccea3fdd
-Response [2025-05-15 00:57:30] - PUT /api/users/1 -> Status: 400 for User: Token: 9d00d545-c3a2-4869-bc5b-9b08ccea3fdd
-Request [2025-05-15 00:58:36] - GET /api/users/1 from IP: 0:0:0:0:0:0:0:1 by User: Token: 9d00d545-c3a2-4869-bc5b-9b08ccea3fdd
-Response [2025-05-15 00:58:36] - GET /api/users/1 -> Status: 200 for User: Token: 9d00d545-c3a2-4869-bc5b-9b08ccea3fdd
-Request [2025-05-15 00:59:59] - PUT /api/users/1 from IP: 0:0:0:0:0:0:0:1 by User: Anonymous
-Response [2025-05-15 00:59:59] - PUT /api/users/1 -> Status: 401 for User: Anonymous
-Request [2025-05-15 01:00:12] - PUT /api/users/1 from IP: 0:0:0:0:0:0:0:1 by User: Token: 9d00d545-c3a2-4869-bc5b-9b08ccea3fdd
-Response [2025-05-15 01:00:12] - PUT /api/users/1 -> Status: 200 for User: Token: 9d00d545-c3a2-4869-bc5b-9b08ccea3fdd
-Request [2025-05-15 01:01:46] - PUT /api/users/3 from IP: 0:0:0:0:0:0:0:1 by User: Token: 9d00d545-c3a2-4869-bc5b-9b08ccea3fdd
-Response [2025-05-15 01:01:46] - PUT /api/users/3 -> Status: 400 for User: Token: 9d00d545-c3a2-4869-bc5b-9b08ccea3fdd
-Request [2025-05-15 01:02:07] - PUT /api/users/3 from IP: 0:0:0:0:0:0:0:1 by User: Token: 9d00d545-c3a2-4869-bc5b-9b08ccea3fdd
-Response [2025-05-15 01:02:07] - PUT /api/users/3 -> Status: 400 for User: Token: 9d00d545-c3a2-4869-bc5b-9b08ccea3fdd
-Request [2025-05-15 01:02:13] - PUT /api/users/3 from IP: 0:0:0:0:0:0:0:1 by User: Token: 9d00d545-c3a2-4869-bc5b-9b08ccea3fdd
-Response [2025-05-15 01:02:13] - PUT /api/users/3 -> Status: 400 for User: Token: 9d00d545-c3a2-4869-bc5b-9b08ccea3fdd
-Request [2025-05-15 01:02:36] - DELETE /api/users/3 from IP: 0:0:0:0:0:0:0:1 by User: Token: 9d00d545-c3a2-4869-bc5b-9b08ccea3fdd
-Response [2025-05-15 01:02:36] - DELETE /api/users/3 -> Status: 200 for User: Token: 9d00d545-c3a2-4869-bc5b-9b08ccea3fdd
-Request [2025-05-15 01:04:40] - POST /api/auth/register from IP: 0:0:0:0:0:0:0:1 by User: Anonymous
-Response [2025-05-15 01:04:40] - POST /api/auth/register -> Status: 400 for User: Anonymous
-Request [2025-05-15 01:04:51] - POST /api/auth/register from IP: 0:0:0:0:0:0:0:1 by User: Anonymous
-Response [2025-05-15 01:04:51] - POST /api/auth/register -> Status: 400 for User: Anonymous
-Request [2025-05-15 01:04:59] - POST /api/auth/register from IP: 0:0:0:0:0:0:0:1 by User: Anonymous
-Response [2025-05-15 01:04:59] - POST /api/auth/register -> Status: 200 for User: Anonymous
-Request [2025-05-15 01:05:54] - DELETE /api/h from IP: 0:0:0:0:0:0:0:1 by User: Token: 9d00d545-c3a2-4869-bc5b-9b08ccea3fdd
-Response [2025-05-15 01:05:54] - DELETE /api/h -> Status: 404 for User: Token: 9d00d545-c3a2-4869-bc5b-9b08ccea3fdd
-Request [2025-05-15 01:06:19] - GET /api/health/data/1 from IP: 0:0:0:0:0:0:0:1 by User: Token: 9d00d545-c3a2-4869-bc5b-9b08ccea3fdd
-Response [2025-05-15 01:06:19] - GET /api/health/data/1 -> Status: 200 for User: Token: 9d00d545-c3a2-4869-bc5b-9b08ccea3fdd
-Request [2025-05-15 01:07:13] - GET /api/h from IP: 0:0:0:0:0:0:0:1 by User: Anonymous
-Response [2025-05-15 01:07:13] - GET /api/h -> Status: 401 for User: Anonymous
-Request [2025-05-15 01:07:18] - GET /api/health/devices from IP: 0:0:0:0:0:0:0:1 by User: Anonymous
-Response [2025-05-15 01:07:18] - GET /api/health/devices -> Status: 401 for User: Anonymous
-Request [2025-05-15 01:07:24] - GET /api/health/devices from IP: 0:0:0:0:0:0:0:1 by User: Token: 9d00d545-c3a2-4869-bc5b-9b08ccea3fdd
-Response [2025-05-15 01:07:24] - GET /api/health/devices -> Status: 200 for User: Token: 9d00d545-c3a2-4869-bc5b-9b08ccea3fdd
-Request [2025-05-15 10:44:01] - POST /api/auth/login from IP: 0:0:0:0:0:0:0:1 by User: Anonymous
-Response [2025-05-15 10:44:01] - POST /api/auth/login -> Status: 200 for User: Anonymous
-Request [2025-05-15 10:44:11] - GET /api/health/devices from IP: 0:0:0:0:0:0:0:1 by User: Token: ca03af96-0aa8-499f-ab78-9b3508cedce6
-Response [2025-05-15 10:44:11] - GET /api/health/devices -> Status: 200 for User: Token: ca03af96-0aa8-499f-ab78-9b3508cedce6
-Request [2025-05-15 10:44:36] - GET /swagger-ui/index.html from IP: 0:0:0:0:0:0:0:1 by User: Anonymous
-Response [2025-05-15 10:44:36] - GET /swagger-ui/index.html -> Status: 200 for User: Anonymous
-Request [2025-05-15 10:44:36] - GET /swagger-ui/swagger-ui.css from IP: 0:0:0:0:0:0:0:1 by User: Anonymous
-Request [2025-05-15 10:44:36] - GET /swagger-ui/index.css from IP: 0:0:0:0:0:0:0:1 by User: Anonymous
-Request [2025-05-15 10:44:36] - GET /swagger-ui/swagger-ui-bundle.js from IP: 0:0:0:0:0:0:0:1 by User: Anonymous
-Request [2025-05-15 10:44:36] - GET /swagger-ui/swagger-ui-standalone-preset.js from IP: 0:0:0:0:0:0:0:1 by User: Anonymous
-Request [2025-05-15 10:44:36] - GET /swagger-ui/swagger-initializer.js from IP: 0:0:0:0:0:0:0:1 by User: Anonymous
-Response [2025-05-15 10:44:36] - GET /swagger-ui/index.css -> Status: 200 for User: Anonymous
-Response [2025-05-15 10:44:36] - GET /swagger-ui/swagger-ui.css -> Status: 200 for User: Anonymous
-Response [2025-05-15 10:44:36] - GET /swagger-ui/swagger-ui-standalone-preset.js -> Status: 200 for User: Anonymous
-Response [2025-05-15 10:44:36] - GET /swagger-ui/swagger-ui-bundle.js -> Status: 200 for User: Anonymous
-Response [2025-05-15 10:44:36] - GET /swagger-ui/swagger-initializer.js -> Status: 200 for User: Anonymous
-Request [2025-05-15 10:44:36] - GET /v3/api-docs/swagger-config from IP: 0:0:0:0:0:0:0:1 by User: Anonymous
-Response [2025-05-15 10:44:36] - GET /v3/api-docs/swagger-config -> Status: 200 for User: Anonymous
-Request [2025-05-15 10:44:36] - GET /v3/api-docs from IP: 0:0:0:0:0:0:0:1 by User: Anonymous
-Response [2025-05-15 10:44:36] - GET /v3/api-docs -> Status: 200 for User: Anonymous
-Request [2025-05-15 10:46:38] - GET /api/devices from IP: 0:0:0:0:0:0:0:1 by User: Anonymous
-Response [2025-05-15 10:46:38] - GET /api/devices -> Status: 401 for User: Anonymous
-Request [2025-05-15 10:46:55] - GET /api/devices from IP: 0:0:0:0:0:0:0:1 by User: Token: 9d00d545-c3a2-4869-bc5b-9b08ccea3fdd
-Response [2025-05-15 10:46:55] - GET /api/devices -> Status: 401 for User: Token: 9d00d545-c3a2-4869-bc5b-9b08ccea3fdd
-Request [2025-05-15 10:47:05] - POST /api/auth/login from IP: 0:0:0:0:0:0:0:1 by User: Anonymous
-Response [2025-05-15 10:47:05] - POST /api/auth/login -> Status: 200 for User: Anonymous
-Request [2025-05-15 10:47:15] - GET /api/devices from IP: 0:0:0:0:0:0:0:1 by User: Token: 66dcadda-0400-4d9d-8777-38f7e68d45bb
-Response [2025-05-15 10:47:15] - GET /api/devices -> Status: 500 for User: Token: 66dcadda-0400-4d9d-8777-38f7e68d45bb
-Request [2025-05-15 10:47:22] - POST /api/devices from IP: 0:0:0:0:0:0:0:1 by User: Token: 66dcadda-0400-4d9d-8777-38f7e68d45bb
-Response [2025-05-15 10:47:22] - POST /api/devices -> Status: 200 for User: Token: 66dcadda-0400-4d9d-8777-38f7e68d45bb
-Request [2025-05-15 12:04:30] - POST /api/auth/login from IP: 0:0:0:0:0:0:0:1 by User: Anonymous
-Response [2025-05-15 12:04:30] - POST /api/auth/login -> Status: 200 for User: Anonymous
-Request [2025-05-15 12:05:52] - POST /api/auth/login from IP: 0:0:0:0:0:0:0:1 by User: Anonymous
-Response [2025-05-15 12:05:52] - POST /api/auth/login -> Status: 200 for User: Anonymous
-Request [2025-05-15 12:06:10] - GET /api/users from IP: 0:0:0:0:0:0:0:1 by User: Token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJoYWRlMjY3IiwiaWF0IjoxNzQ3Mjg1NTUyLCJleHAiOjE3NDczNzE5NTJ9.YaiJbIZJGjeV5P2OLbQ-U4o42MW383IVf6k4bGoNOjgbTSYhIN_Kn4P2gNYcR6ttfT2xWWhhyh3LJG9Zpo9GrQ
-Response [2025-05-15 12:06:10] - GET /api/users -> Status: 200 for User: Token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJoYWRlMjY3IiwiaWF0IjoxNzQ3Mjg1NTUyLCJleHAiOjE3NDczNzE5NTJ9.YaiJbIZJGjeV5P2OLbQ-U4o42MW383IVf6k4bGoNOjgbTSYhIN_Kn4P2gNYcR6ttfT2xWWhhyh3LJG9Zpo9GrQ
-Request [2025-05-15 12:06:42] - GET /api/health/devices from IP: 0:0:0:0:0:0:0:1 by User: Token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJoYWRlMjY3IiwiaWF0IjoxNzQ3Mjg1NTUyLCJleHAiOjE3NDczNzE5NTJ9.YaiJbIZJGjeV5P2OLbQ-U4o42MW383IVf6k4bGoNOjgbTSYhIN_Kn4P2gNYcR6ttfT2xWWhhyh3LJG9Zpo9GrQ
-Response [2025-05-15 12:06:42] - GET /api/health/devices -> Status: 200 for User: Token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJoYWRlMjY3IiwiaWF0IjoxNzQ3Mjg1NTUyLCJleHAiOjE3NDczNzE5NTJ9.YaiJbIZJGjeV5P2OLbQ-U4o42MW383IVf6k4bGoNOjgbTSYhIN_Kn4P2gNYcR6ttfT2xWWhhyh3LJG9Zpo9GrQ
+Request [2025-06-04 21:34:37] - GET / from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: No token
+Response [2025-06-04 21:34:37] - GET / -> Status: 401 for User: Anonymous with Token: No token
+Request [2025-06-04 21:34:43] - GET /api/auth from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: No token
+Response [2025-06-04 21:34:43] - GET /api/auth -> Status: 401 for User: Anonymous with Token: No token
+Request [2025-06-04 21:35:04] - POST /api/auth/login from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: No token
+Response [2025-06-04 21:35:04] - POST /api/auth/login -> Status: 200 for User: Anonymous with Token: No token
+Request [2025-06-04 21:36:06] - GET /api/ from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: No token
+Response [2025-06-04 21:36:06] - GET /api/ -> Status: 401 for User: Anonymous with Token: No token
+Request [2025-06-04 21:38:14] - POST /api/auth/login from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: No token
+Response [2025-06-04 21:38:14] - POST /api/auth/login -> Status: 200 for User: Anonymous with Token: No token
+Request [2025-06-04 21:44:44] - GET /api/users/me from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: 908e168d-26dc-4f55-9ac6-93bfe94a1680
+Response [2025-06-04 21:44:44] - GET /api/users/me -> Status: 200 for User: Anonymous with Token: 908e168d-26dc-4f55-9ac6-93bfe94a1680
+Request [2025-06-04 21:45:29] - GET /api/users/me from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: 908e168d-26dc-4f55-9ac6-93bfe94a1680
+Response [2025-06-04 21:45:29] - GET /api/users/me -> Status: 200 for User: Anonymous with Token: 908e168d-26dc-4f55-9ac6-93bfe94a1680
+Request [2025-06-04 21:45:53] - GET /api/users/me from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: 908e168d-26dc-4f55-9ac6-93bfe94a1680
+Response [2025-06-04 21:45:53] - GET /api/users/me -> Status: 200 for User: Anonymous with Token: 908e168d-26dc-4f55-9ac6-93bfe94a1680
+Request [2025-06-04 21:46:14] - GET /api/users/me from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: 908e168d-26dc-4f55-9ac6-93bfe94a1680
+Response [2025-06-04 21:46:14] - GET /api/users/me -> Status: 200 for User: Anonymous with Token: 908e168d-26dc-4f55-9ac6-93bfe94a1680
+Request [2025-06-04 21:46:32] - GET /api/users/me from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: 908e168d-26dc-4f55-9ac6-93bfe94a1680
+Response [2025-06-04 21:46:32] - GET /api/users/me -> Status: 200 for User: Anonymous with Token: 908e168d-26dc-4f55-9ac6-93bfe94a1680
+Request [2025-06-04 21:46:41] - GET /api/users/me from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: 908e168d-26dc-4f55-9ac6-93bfe94a1680
+Response [2025-06-04 21:46:41] - GET /api/users/me -> Status: 200 for User: Anonymous with Token: 908e168d-26dc-4f55-9ac6-93bfe94a1680
+Request [2025-06-04 21:47:35] - POST /api/auth/register from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: No token
+Response [2025-06-04 21:47:35] - POST /api/auth/register -> Status: 200 for User: Anonymous with Token: No token
+Request [2025-06-04 21:47:48] - GET /api/users/me from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: 4cab9306-b50a-498e-a1b6-9b80e3a1af60
+Response [2025-06-04 21:47:48] - GET /api/users/me -> Status: 403 for User: Anonymous with Token: 4cab9306-b50a-498e-a1b6-9b80e3a1af60
+Request [2025-06-04 21:48:03] - GET /api/users/me from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: 4cab9306-b50a-498e-a1b6-9b80e3a1af60
+Response [2025-06-04 21:48:03] - GET /api/users/me -> Status: 403 for User: Anonymous with Token: 4cab9306-b50a-498e-a1b6-9b80e3a1af60
+Request [2025-06-04 21:51:56] - POST /api/users/me from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: /users/me
+Response [2025-06-04 21:51:56] - POST /api/users/me -> Status: 401 for User: Anonymous with Token: /users/me
+Request [2025-06-04 21:52:07] - POST /api/users/me from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: 4cab9306-b50a-498e-a1b6-9b80e3a1af60
+Response [2025-06-04 21:52:07] - POST /api/users/me -> Status: 403 for User: Anonymous with Token: 4cab9306-b50a-498e-a1b6-9b80e3a1af60
+Request [2025-06-04 21:55:40] - GET /api/users/me from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: 4cab9306-b50a-498e-a1b6-9b80e3a1af60
+Response [2025-06-04 21:55:40] - GET /api/users/me -> Status: 403 for User: Anonymous with Token: 4cab9306-b50a-498e-a1b6-9b80e3a1af60
+Request [2025-06-04 21:56:55] - POST /api/auth/register from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: No token
+Response [2025-06-04 21:56:55] - POST /api/auth/register -> Status: 200 for User: Anonymous with Token: No token
+Request [2025-06-04 21:56:56] - POST /api/auth/login from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: No token
+Response [2025-06-04 21:56:56] - POST /api/auth/login -> Status: 200 for User: Anonymous with Token: No token
+Request [2025-06-04 21:57:05] - GET /api/users/me from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: 01530357-3c2b-4c58-bf09-9fbbf624985d
+Response [2025-06-04 21:57:05] - GET /api/users/me -> Status: 403 for User: Anonymous with Token: 01530357-3c2b-4c58-bf09-9fbbf624985d
+Request [2025-06-04 21:57:19] - GET /api/users/me from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: 01530357-3c2b-4c58-bf09-9fbbf624985d
+Response [2025-06-04 21:57:19] - GET /api/users/me -> Status: 403 for User: Anonymous with Token: 01530357-3c2b-4c58-bf09-9fbbf624985d
+Request [2025-06-04 21:57:49] - POST /api/users/me from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: 01530357-3c2b-4c58-bf09-9fbbf624985d
+Response [2025-06-04 21:57:49] - POST /api/users/me -> Status: 403 for User: Anonymous with Token: 01530357-3c2b-4c58-bf09-9fbbf624985d
+Request [2025-06-04 21:58:43] - POST /api/users/me from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: 01530357-3c2b-4c58-bf09-9fbbf624985d
+Response [2025-06-04 21:58:43] - POST /api/users/me -> Status: 403 for User: Anonymous with Token: 01530357-3c2b-4c58-bf09-9fbbf624985d
+Request [2025-06-04 21:58:53] - GET /api/users/me from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: 01530357-3c2b-4c58-bf09-9fbbf624985d
+Response [2025-06-04 21:58:53] - GET /api/users/me -> Status: 403 for User: Anonymous with Token: 01530357-3c2b-4c58-bf09-9fbbf624985d
+Request [2025-06-04 21:59:23] - POST /api/auth/login from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: No token
+Response [2025-06-04 21:59:23] - POST /api/auth/login -> Status: 200 for User: Anonymous with Token: No token
+Request [2025-06-04 21:59:26] - GET /api/users/me from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: 588104ec-0330-46c6-805b-dda775c7d671
+Response [2025-06-04 21:59:26] - GET /api/users/me -> Status: 403 for User: Anonymous with Token: 588104ec-0330-46c6-805b-dda775c7d671
+Request [2025-06-04 21:59:54] - POST /api/users/me from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: 588104ec-0330-46c6-805b-dda775c7d671
+Response [2025-06-04 21:59:54] - POST /api/users/me -> Status: 403 for User: Anonymous with Token: 588104ec-0330-46c6-805b-dda775c7d671
+Request [2025-06-04 22:00:06] - POST /api/auth/login from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: 588104ec-0330-46c6-805b-dda775c7d671
+Response [2025-06-04 22:00:06] - POST /api/auth/login -> Status: 500 for User: Anonymous with Token: 588104ec-0330-46c6-805b-dda775c7d671
+Request [2025-06-04 22:00:14] - POST /api/auth/login from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: 588104ec-0330-46c6-805b-dda775c7d671
+Response [2025-06-04 22:00:14] - POST /api/auth/login -> Status: 200 for User: Anonymous with Token: 588104ec-0330-46c6-805b-dda775c7d671
+Request [2025-06-04 22:00:29] - GET /api/health/data/me from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: b2f2e282-e3b5-48db-a8b5-181dda7d3df6
+Response [2025-06-04 22:00:29] - GET /api/health/data/me -> Status: 200 for User: Anonymous with Token: b2f2e282-e3b5-48db-a8b5-181dda7d3df6
+Request [2025-06-04 22:00:45] - GET /api/users/me from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: b2f2e282-e3b5-48db-a8b5-181dda7d3df6
+Response [2025-06-04 22:00:45] - GET /api/users/me -> Status: 200 for User: Anonymous with Token: b2f2e282-e3b5-48db-a8b5-181dda7d3df6
+Request [2025-06-04 22:00:57] - POST /api/auth/login from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: 588104ec-0330-46c6-805b-dda775c7d671
+Response [2025-06-04 22:00:57] - POST /api/auth/login -> Status: 200 for User: Anonymous with Token: 588104ec-0330-46c6-805b-dda775c7d671
+Request [2025-06-04 22:01:01] - POST /api/auth/login from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: 588104ec-0330-46c6-805b-dda775c7d671
+Response [2025-06-04 22:01:01] - POST /api/auth/login -> Status: 200 for User: Anonymous with Token: 588104ec-0330-46c6-805b-dda775c7d671
+Request [2025-06-04 22:01:23] - GET /api/users/me from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: 8d130148-ba31-492b-9e29-7f1fb19f9b53
+Response [2025-06-04 22:01:23] - GET /api/users/me -> Status: 403 for User: Anonymous with Token: 8d130148-ba31-492b-9e29-7f1fb19f9b53
+Request [2025-06-04 22:01:53] - GET /api/users/me from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: 8d130148-ba31-492b-9e29-7f1fb19f9b53
+Response [2025-06-04 22:01:53] - GET /api/users/me -> Status: 403 for User: Anonymous with Token: 8d130148-ba31-492b-9e29-7f1fb19f9b53
+Request [2025-06-04 22:01:56] - POST /api/auth/login from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: 588104ec-0330-46c6-805b-dda775c7d671
+Response [2025-06-04 22:01:56] - POST /api/auth/login -> Status: 200 for User: Anonymous with Token: 588104ec-0330-46c6-805b-dda775c7d671
+Request [2025-06-04 22:02:10] - GET /api/users/me from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: 2f3606f5-b2ae-488f-b50e-8ea00fc32a21
+Response [2025-06-04 22:02:10] - GET /api/users/me -> Status: 403 for User: Anonymous with Token: 2f3606f5-b2ae-488f-b50e-8ea00fc32a21
+Request [2025-06-04 22:02:37] - POST /api/auth/login from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: 588104ec-0330-46c6-805b-dda775c7d671
+Response [2025-06-04 22:02:37] - POST /api/auth/login -> Status: 200 for User: Anonymous with Token: 588104ec-0330-46c6-805b-dda775c7d671
+Request [2025-06-04 22:02:52] - POST /api/auth/login from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: 588104ec-0330-46c6-805b-dda775c7d671
+Response [2025-06-04 22:02:52] - POST /api/auth/login -> Status: 200 for User: Anonymous with Token: 588104ec-0330-46c6-805b-dda775c7d671
+Request [2025-06-04 22:03:09] - GET /api/users/me from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token:  588104ec-0330-46c6-805b-dda775c7d671
+Response [2025-06-04 22:03:09] - GET /api/users/me -> Status: 401 for User: Anonymous with Token:  588104ec-0330-46c6-805b-dda775c7d671
+Request [2025-06-04 22:03:17] - GET /api/users/me from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: 588104ec-0330-46c6-805b-dda775c7d671
+Response [2025-06-04 22:03:17] - GET /api/users/me -> Status: 401 for User: Anonymous with Token: 588104ec-0330-46c6-805b-dda775c7d671
+Request [2025-06-04 22:03:28] - GET /api/users/me from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: 6ec74568-f7cc-4d4f-94e7-0e9112f3d6f0
+Response [2025-06-04 22:03:28] - GET /api/users/me -> Status: 403 for User: Anonymous with Token: 6ec74568-f7cc-4d4f-94e7-0e9112f3d6f0
+Request [2025-06-04 22:03:56] - POST /api/auth/login from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: 588104ec-0330-46c6-805b-dda775c7d671
+Response [2025-06-04 22:03:56] - POST /api/auth/login -> Status: 404 for User: Anonymous with Token: 588104ec-0330-46c6-805b-dda775c7d671
+Request [2025-06-04 22:04:04] - POST /api/auth/login from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: 588104ec-0330-46c6-805b-dda775c7d671
+Response [2025-06-04 22:04:04] - POST /api/auth/login -> Status: 200 for User: Anonymous with Token: 588104ec-0330-46c6-805b-dda775c7d671
+Request [2025-06-04 22:04:21] - POST /api/auth/login from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: 588104ec-0330-46c6-805b-dda775c7d671
+Response [2025-06-04 22:04:21] - POST /api/auth/login -> Status: 200 for User: Anonymous with Token: 588104ec-0330-46c6-805b-dda775c7d671
+Request [2025-06-04 22:04:32] - POST /api/auth/login from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: 588104ec-0330-46c6-805b-dda775c7d671
+Response [2025-06-04 22:04:32] - POST /api/auth/login -> Status: 200 for User: Anonymous with Token: 588104ec-0330-46c6-805b-dda775c7d671
+Request [2025-06-04 22:04:54] - GET /api/users/me from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: a423c96b-227f-47eb-9e9b-064236a58c3d
+Response [2025-06-04 22:04:54] - GET /api/users/me -> Status: 403 for User: Anonymous with Token: a423c96b-227f-47eb-9e9b-064236a58c3d
+Request [2025-06-04 22:05:01] - GET /api/users/me from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: 588104ec-0330-46c6-805b-dda775c7d671
+Response [2025-06-04 22:05:01] - GET /api/users/me -> Status: 401 for User: Anonymous with Token: 588104ec-0330-46c6-805b-dda775c7d671
+Request [2025-06-04 22:05:08] - POST /api/auth/login from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: 588104ec-0330-46c6-805b-dda775c7d671
+Response [2025-06-04 22:05:08] - POST /api/auth/login -> Status: 200 for User: Anonymous with Token: 588104ec-0330-46c6-805b-dda775c7d671
+Request [2025-06-04 22:05:21] - GET /api/users/me from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: 588104ec-0330-46c6-805b-dda775c7d671
+Response [2025-06-04 22:05:21] - GET /api/users/me -> Status: 401 for User: Anonymous with Token: 588104ec-0330-46c6-805b-dda775c7d671
+Request [2025-06-04 22:05:23] - GET /api/users/me from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: 588104ec-0330-46c6-805b-dda775c7d671
+Response [2025-06-04 22:05:23] - GET /api/users/me -> Status: 401 for User: Anonymous with Token: 588104ec-0330-46c6-805b-dda775c7d671
+Request [2025-06-04 22:05:28] - POST /api/auth/login from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: 588104ec-0330-46c6-805b-dda775c7d671
+Response [2025-06-04 22:05:28] - POST /api/auth/login -> Status: 200 for User: Anonymous with Token: 588104ec-0330-46c6-805b-dda775c7d671
+Request [2025-06-04 22:05:34] - GET /api/users/me from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: 85142c28-2944-429e-93d9-d8fa88066c0c
+Response [2025-06-04 22:05:34] - GET /api/users/me -> Status: 200 for User: Anonymous with Token: 85142c28-2944-429e-93d9-d8fa88066c0c
+Request [2025-06-04 22:11:15] - POST /api/auth/register from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: No token
+Response [2025-06-04 22:11:15] - POST /api/auth/register -> Status: 200 for User: Anonymous with Token: No token
+Request [2025-06-04 22:11:59] - POST /api/auth/login from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: 588104ec-0330-46c6-805b-dda775c7d671
+Response [2025-06-04 22:11:59] - POST /api/auth/login -> Status: 200 for User: Anonymous with Token: 588104ec-0330-46c6-805b-dda775c7d671
+Request [2025-06-04 22:12:09] - GET /api/users/me from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: dd075fed-a0a1-47a1-93ce-1853079e49f2
+Response [2025-06-04 22:12:09] - GET /api/users/me -> Status: 200 for User: Anonymous with Token: dd075fed-a0a1-47a1-93ce-1853079e49f2
+Request [2025-06-04 22:12:20] - GET /api/users/me from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: dd075fed-a0a1-47a1-93ce-1853079e49f2
+Response [2025-06-04 22:12:20] - GET /api/users/me -> Status: 403 for User: Anonymous with Token: dd075fed-a0a1-47a1-93ce-1853079e49f2
+Request [2025-06-04 22:12:24] - POST /api/auth/login from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: 588104ec-0330-46c6-805b-dda775c7d671
+Response [2025-06-04 22:12:24] - POST /api/auth/login -> Status: 200 for User: Anonymous with Token: 588104ec-0330-46c6-805b-dda775c7d671
+Request [2025-06-04 22:12:32] - GET /api/users/me from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: 215f6ce1-1622-4b87-ac33-b5c79ea6b39e
+Response [2025-06-04 22:12:32] - GET /api/users/me -> Status: 403 for User: Anonymous with Token: 215f6ce1-1622-4b87-ac33-b5c79ea6b39e
+Request [2025-06-04 22:14:37] - GET /api/users/me from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: 215f6ce1-1622-4b87-ac33-b5c79ea6b39e
+Response [2025-06-04 22:14:37] - GET /api/users/me -> Status: 200 for User: Anonymous with Token: 215f6ce1-1622-4b87-ac33-b5c79ea6b39e
+Request [2025-06-04 22:16:24] - GET /api/users/me from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: 215f6ce1-1622-4b87-ac33-b5c79ea6b39e
+Response [2025-06-04 22:16:24] - GET /api/users/me -> Status: 200 for User: Anonymous with Token: 215f6ce1-1622-4b87-ac33-b5c79ea6b39e
+Request [2025-06-04 22:16:33] - GET /api/users/me from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: 588104ec-0330-46c6-805b-dda775c7d671
+Response [2025-06-04 22:16:33] - GET /api/users/me -> Status: 401 for User: Anonymous with Token: 588104ec-0330-46c6-805b-dda775c7d671
+Request [2025-06-04 22:16:37] - GET /api/users/me from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: 588104ec-0330-46c6-805b-dda775c7d671
+Response [2025-06-04 22:16:37] - GET /api/users/me -> Status: 401 for User: Anonymous with Token: 588104ec-0330-46c6-805b-dda775c7d671
+Request [2025-06-04 22:17:20] - POST /api/auth/register from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: No token
+Response [2025-06-04 22:17:20] - POST /api/auth/register -> Status: 200 for User: Anonymous with Token: No token
+Request [2025-06-04 22:17:21] - POST /api/auth/login from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: No token
+Response [2025-06-04 22:17:21] - POST /api/auth/login -> Status: 200 for User: Anonymous with Token: No token
+Request [2025-06-04 22:17:23] - GET /api/users/me from IP: 0:0:0:0:0:0:0:1 by User: Anonymous with Token: 835d8c8f-99cc-46dc-8dc5-2320e4b3ad1d
+Response [2025-06-04 22:17:23] - GET /api/users/me -> Status: 200 for User: Anonymous with Token: 835d8c8f-99cc-46dc-8dc5-2320e4b3ad1d

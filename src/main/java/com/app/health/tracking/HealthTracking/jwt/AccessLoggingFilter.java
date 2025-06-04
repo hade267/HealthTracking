@@ -31,27 +31,28 @@ public class AccessLoggingFilter extends OncePerRequestFilter {
         String method = wrappedRequest.getMethod();
         String url = wrappedRequest.getRequestURI();
         String clientIp = wrappedRequest.getRemoteAddr();
-        String authHeader = wrappedRequest.getHeader("Authorization");
-        String user = "Anonymous";
-
-        // Extract user from the Authorization token if available
-        if (authHeader != null && authHeader.startsWith("Bearer ")) {
-            String token = authHeader.substring(7);
-            // We'll set the user in the SecurityContext in the TokenValidationFilter,
-            // so we can retrieve it later. For now, we'll log the token presence.
-            user = "Token: " + token; // Simplified; we'll refine this in the next step
+        String user = (String) wrappedRequest.getAttribute("username");
+        String token = wrappedRequest.getHeader("Authorization");
+        if (token != null && token.startsWith("Bearer ")) {
+            token = token.substring(7); // Extract the token
+        } else {
+            token = "No token";
         }
 
-        // Log the incoming request
-        logger.info("Request [{}] - {} {} from IP: {} by User: {}", timestamp, method, url, clientIp, user);
+        if (user == null) {
+            user = "Anonymous";
+        }
+
+        // Log the incoming request with token
+        logger.info("Request [{}] - {} {} from IP: {} by User: {} with Token: {}", timestamp, method, url, clientIp, user, token);
 
         try {
             filterChain.doFilter(wrappedRequest, wrappedResponse);
         } finally {
             // Log the response status after the request is processed
             int status = wrappedResponse.getStatus();
-            logger.info("Response [{}] - {} {} -> Status: {} for User: {}", timestamp, method, url, status, user);
-            wrappedResponse.copyBodyToResponse(); // Ensure response body is written back
+            logger.info("Response [{}] - {} {} -> Status: {} for User: {} with Token: {}", timestamp, method, url, status, user, token);
+            wrappedResponse.copyBodyToResponse();
         }
     }
 }
